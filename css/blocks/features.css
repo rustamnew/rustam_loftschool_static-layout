@@ -1,0 +1,122 @@
+.features {
+    margin-bottom: 131px;
+    margin-left: 12px;
+}
+
+.features__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__icon {
+    position: relative;
+    min-height: 162px;
+}
+
+.features__icon:before {
+    content: "";
+    width: 310px;
+    height: 290px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    background: #cccccc;
+    bottom: 0%;
+    left: 45%;
+}
+
+.features__item-circle-grey .features__icon:before {
+    background-color: #a5a5a4;
+}
+
+.features__item-circle-blue .features__icon:before {
+    background-color: #556180;
+}
+
+.features__item-circle-gold .features__icon:before {
+    background-color: #978455;
+}
+
+.features__icon-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features__item {
+    display: inline-block;
+    width: calc(100% / 3 - 18px);
+    min-height: 470px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.features__info {
+    padding: 36px 30px;
+    padding-top: 24px;
+    text-align: left;
+}
+
+.features__name {
+    color: #010001;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+
+.features__description {
+    color: #010001;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__description-block:last-child {
+    margin-right: 0px;
+}
+
+.features__description-block-top {
+    color: #010001;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+    
+}
+
+.features__description-block-under {
+    width: 122px;
+    height: 38px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.features__button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bg-card_grey {
+    width: 88px; height: 64px;
+    background: url('../../img/icons/cards/css_sprites.png') -10px -94px;
+}
+
+.bg-card_blue {
+    width: 88px; height: 64px;
+    background: url('../../img/icons/cards/css_sprites.png') -10px -10px;
+}
+
+.bg-card_gold {
+    width: 88px; height: 64px;
+    background: url('../../img/icons/cards/css_sprites.png') -118px -10px;
+}

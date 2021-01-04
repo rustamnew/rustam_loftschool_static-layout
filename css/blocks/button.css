@@ -1,0 +1,35 @@
+.button {
+    display: inline-block;
+    width: 165px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #202123;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.button:hover {
+    background-color: #dfb56d;
+}
+
+.button-light {
+    background-color: #dfb56d;
+}
+
+.button-light:hover {
+    box-shadow: 0 0 40px rgba(223, 181, 109, 0.15);
+}
+
+.button-grey {
+    background-color: #8d8d8d;
+}
+
+.button-grey:hover {
+    background-color: #202123;
+}

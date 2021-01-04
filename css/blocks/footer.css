@@ -1,0 +1,135 @@
+.footer {
+    border-top: 1px solid #353538;
+    min-height: 152px;
+    position: relative;
+    
+}
+
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align-right {
+  justify-content: flex-end;  
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    margin-right: 74px;
+}
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link{
+    display: block;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+    background: center center no-repeat;
+
+}
+
+
+
+
+
+.phone__text {
+    color: #999999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.footer__main {
+    display: flex;
+    align-items: center;
+}
+
+.footer__services {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.social__item-icon-telegram {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -66px -66px;
+}
+.social__item-icon-telegram:hover {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -122px -10px;
+}
+
+.social__item-icon-vk {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -66px -10px;
+}
+.social__item-icon-vk:hover {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -66px -122px;
+}
+
+.social__item-icon-facebook {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -10px -10px;
+}
+.social__item-icon-facebook:hover {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -122px -66px;
+}
+
+.social__item-icon-instagram {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -10px -122px;
+}
+.social__item-icon-instagram:hover {
+    width: 36px; height: 36px;
+    background: url('../../img/icons/socials/css_sprites.png') -10px -66px;
+}
+
+
+
+
+.bg-instagram_hover {
+    
+}
+
+
+.bg-telegram {
+    
+}
+
+
+.bg-telegram_hover {
+    
+}
+
+
+.bg-facebook_hover {
+    
+}
+
+
+.bg-instagram {
+    
+}
+
+
+.bg-vk_hover {
+    
+}

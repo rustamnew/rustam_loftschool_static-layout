@@ -1,0 +1,36 @@
+.partners__title {
+    margin-top: 88px;
+    margin-bottom: 68px;
+    color: #202123;
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.partners__item {
+    display: block;
+    margin-bottom: 75px;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 230px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__container {
+    display: flex;
+}
+
+
+

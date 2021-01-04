@@ -1,0 +1,122 @@
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+@import url('./layout/normalize.css');
+
+@import url('./blocks/about.css');
+@import url('./blocks/button.css');
+@import url('./blocks/features.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/header.css');
+@import url('./blocks/news.css');
+@import url('./blocks/paginator.css');
+@import url('./blocks/preview.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/service.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/welcome.css');
+@import url('./blocks/review.css');
+@import url('./blocks/tag.css');
+@import url('./blocks/separator.css');
+@import url('./blocks/form.css');
+
+
+
+.wrapper-main {
+    background: url(../img/bg/lion-header.jpg) center top no-repeat, url(../img/bg/bottom-pic.png) right bottom 307px no-repeat;
+}
+
+.page-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.top-line {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../img/bg/lion-head-wide.jpg) right 50% top no-repeat;
+    padding-bottom: 26px;
+}
+
+.container__top-line {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-content {
+    background-color: #ffffff;
+    color: #818181;
+    padding-top: 50px;
+}
+
+.review-content {
+    padding-top: 75px;
+}
+
+.inner-section-review {
+    padding-top: 105px;
+}
+
+.inner-section__title {
+    color: #202123;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 60px
+}
+
+.inner-section--bg--grey {
+    background-color: #f4f5f5;
+}
+
+
+
+.wrapper-welcome {
+    justify-content: center;
+    background: url(../img/bg/splash.jpg) center top no-repeat;
+}
+
+
+@keyframes WelcomeAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        
+        animation-timing-function: cubic-bezier(.17,1.01,.65,1.22);
+        transform: translateY(-40px);
+    }
+
+    35% {
+        transform: translateY(0px);
+    }
+
+    55% {
+        transform: translateY(-20px);
+    }
+
+    65% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.paginator-review {
+    margin-bottom: 110px;
+}
