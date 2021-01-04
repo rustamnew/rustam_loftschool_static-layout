@@ -65,12 +65,16 @@
     color: #202123;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 0;
-    padding-top: 60px
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
 .inner-section--bg--grey {
     background-color: #f4f5f5;
+}
+
+.inner-section__title.review-section__title {
+    padding: 0;
 }
 
 
