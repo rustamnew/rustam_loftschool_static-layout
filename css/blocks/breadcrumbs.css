@@ -14,6 +14,10 @@
     font-size: 14px;
 }
 
+.breadcrumbs__item.active {
+    font-weight: 700;
+}
+
 .breadcrumbs__item:hover {
     color: #dfb56d;
 }
@@ -24,8 +28,4 @@
 
 .breadcrumbs__item:last-child:after {
     content: "";
-}
-
-.breadcrumbs__item-active {
-    font-weight: 700;
 }
