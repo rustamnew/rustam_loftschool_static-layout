@@ -1,5 +1,5 @@
 .paginator {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     text-align: center;
 }
 
@@ -38,10 +38,6 @@
 
 .paginator__item-active {
     color: #ffffff;
-}
-
-.paginator__services {
-    margin-bottom: 120px;
 }
 
 .paginator-dark {

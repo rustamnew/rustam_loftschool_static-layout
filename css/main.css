@@ -77,13 +77,10 @@
     padding: 0;
 }
 
-
-
 .wrapper-welcome {
     justify-content: center;
     background: url(../img/bg/splash.jpg) center top no-repeat;
 }
-
 
 @keyframes WelcomeAnimation {
     0% {
@@ -119,8 +116,4 @@
     100% {
         opacity: 1;
     }
-}
-
-.paginator-review {
-    margin-bottom: 110px;
 }

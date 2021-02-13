@@ -1,27 +1,17 @@
 .header {
-    padding-top: 23px;
-    padding-left: 8px;
-    margin-bottom: 190px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.header__top-line {
-    margin-bottom: 0;
+.header.main {
+    margin-bottom: 190px;
 }
 
 .header__col {
     display: flex;
     align-items: center;
-}
-
-.header__col-align-left {
-    margin-top: 15px;
-}
-
-.header__col-align-right {
-    justify-content: flex-end;
 }
 
 .logo {
